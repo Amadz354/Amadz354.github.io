@@ -1,0 +1,256 @@
+.card{
+    width: 300px;
+    height: 400px;
+    background: #000;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .25% ease ;
+    backface-visibility: hidden;
+    margin-right: 20px;
+    
+}
+.card img{
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    transition: all .25% ease;
+}
+.card:hover{
+    transform: scale(.9);
+}
+.card:hover:after{
+    height: 200px;
+}
+.card:hover .con-text p{
+    margin-bottom: 0px;
+    opacity: 1;
+}
+.card:hover img{
+    transform: scale(1.25);
+
+}
+.card ::after{
+    width: 100%;
+    content: --;
+    left: 0px;
+    bottom: 0px;
+    height: 100%;
+    position: absolute;
+    z-index: 20;
+    transition: all .25% ease;
+}
+.card .con-text{
+    z-index: 30;
+    position: absolute;
+    color: #fff;
+    bottom: 0px;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+.card .con-text p{
+    font-size: .8rem;
+    opacity: 0;
+    margin-bottom: -170px;
+    transition: all .25 ease;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.card-2{
+    width: 300px;
+    height: 400px;
+    background: #000;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .25% ease ;
+    backface-visibility: hidden;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+.card-2 img{
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    transition: all .25% ease;
+}
+.card-2:hover{
+    transform: scale(.9);
+}
+.card-2:hover:after{
+    height: 200px;
+}
+.card-2:hover .con-text-2 p{
+    margin-bottom: 0px;
+    opacity: 1;
+}
+.card-2:hover img{
+    transform: scale(1.25);
+}
+.card-2 ::after{
+    width: 100%;
+    content: --;
+    left: 0px;
+    bottom: 0px;
+    height: 100%;
+    position: absolute;
+    z-index: 20;
+    transition: all .25% ease;
+}
+.card-2 .con-text-2{
+    z-index: 30;
+    position: absolute;
+    color: #fff;
+    bottom: 0px;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+.card-2 .con-text-2 p{
+    font-size: .8rem;
+    opacity: 0;
+    margin-bottom: -170px;
+    transition: all .25 ease;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+}
+.card-3{
+    width: 300px;
+    height: 400px;
+    background: #000;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .25% ease ;
+    backface-visibility: hidden;
+    margin-top: 50px;
+    margin-right:20px;
+}
+.card-3 img{
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    transition: all .25% ease;
+}
+.card-3:hover{
+    transform: scale(.9);
+}
+.card-3:hover:after{
+    height: 200px;
+}
+.card-3:hover .con-text-3 p{
+    margin-bottom: 0px;
+    opacity: 1;
+}
+.card-3:hover img{
+    transform: scale(1.25);
+}
+.card-3 ::after{
+    width: 100%;
+    content: --;
+    left: 0px;
+    bottom: 0px;
+    height: 100%;
+    position: absolute;
+    z-index: 20;
+    transition: all .25% ease;
+}
+.card-3 .con-text-3{
+    z-index: 30;
+    position: absolute;
+    color: #fff;
+    bottom: 0px;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+.card-3 .con-text-3 p{
+    font-size: .8rem;
+    opacity: 0;
+    margin-bottom: -170px;
+    transition: all .25 ease;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.card-4{
+    width: 300px;
+    height: 400px;
+    background: #000;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .25% ease ;
+    backface-visibility: hidden;
+    margin-top: 50px;
+    
+}
+.card-4 img{
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    transition: all .25% ease;
+}
+.card-4:hover{
+    transform: scale(.9);
+}
+.card-4:hover:after{
+    height: 200px;
+}
+.card-4:hover .con-text-4 p{
+    margin-bottom: 0px;
+    opacity: 1;
+}
+.card-4:hover img{
+    transform: scale(1.25);
+}
+.card-4 ::after{
+    width: 100%;
+    content: --;
+    left: 0px;
+    bottom: 0px;
+    height: 100%;
+    position: absolute;
+    z-index: 20;
+    transition: all .25% ease;
+}
+.card-4 .con-text-4{
+    z-index: 30;
+    position: absolute;
+    color: #fff;
+    bottom: 0px;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+.card-4 .con-text-4 p{
+    font-size: .8rem;
+    opacity: 0;
+    margin-bottom: -170px;
+    transition: all .25 ease;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
